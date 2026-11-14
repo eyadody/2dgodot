@@ -4,6 +4,7 @@
 [ext_resource type="Texture2D" uid="uid://dlvtigj8c0vkv" path="res://images-removebg-preview.png" id="2_112p8"]
 [ext_resource type="Texture2D" uid="uid://btn6ytqbvlakr" path="res://Snapchat-1324600017.jpg" id="3_bss38"]
 [ext_resource type="Texture2D" uid="uid://cepojmohk0x62" path="res://10_17.png" id="4_e2u21"]
+[ext_resource type="PackedScene" uid="uid://cbmeraslsc0d1" path="res://enemy.tscn" id="5_bss38"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xrivr"]
 size = Vector2(60, 98.75)
@@ -16743,3 +16744,5 @@ motion_mirroring = Vector2(2304, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="ParallaxBackground/ParallaxLayer2" unique_id=1991796119]
 texture = ExtResource("4_e2u21")
+
+[node name="Enemy" parent="." unique_id=332853600 instance=ExtResource("5_bss38")]
