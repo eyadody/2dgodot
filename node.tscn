@@ -5,14 +5,10 @@
 [ext_resource type="Texture2D" uid="uid://btn6ytqbvlakr" path="res://Snapchat-1324600017.jpg" id="3_bss38"]
 [ext_resource type="AudioStream" uid="uid://gssaqxwmyefh" path="res://freesound-community-jump-sound-ver-2-6093_sUuSmkl3.mp3" id="3_tda05"]
 [ext_resource type="Texture2D" uid="uid://cepojmohk0x62" path="res://10_17.png" id="4_e2u21"]
-<<<<<<< Updated upstream
-[ext_resource type="PackedScene" uid="uid://cbmeraslsc0d1" path="res://enemy.tscn" id="5_bss38"]
-=======
 [ext_resource type="PackedScene" uid="uid://cuxutsvuygrua" path="res://coin.tscn" id="6_tda05"]
 [ext_resource type="FontFile" uid="uid://cmx3fo5arqgbx" path="res://superstar_memesbruh03.ttf" id="7_qn3nj"]
 [ext_resource type="PackedScene" uid="uid://dj2yat8q6noro" path="res://killzone.tscn" id="8_l6pdb"]
 [ext_resource type="PackedScene" uid="uid://blcsbjvl6pykp" path="res://lava.tscn" id="9_r657h"]
->>>>>>> Stashed changes
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_xrivr"]
 size = Vector2(60, 104.375)
@@ -16770,9 +16766,6 @@ motion_mirroring = Vector2(2304, 0)
 position = Vector2(20, 4)
 texture = ExtResource("4_e2u21")
 
-<<<<<<< Updated upstream
-[node name="Enemy" parent="." unique_id=332853600 instance=ExtResource("5_bss38")]
-=======
 [node name="Node2D" parent="." unique_id=2039161949 instance=ExtResource("6_tda05")]
 position = Vector2(1502, 640)
 
@@ -16818,4 +16811,3 @@ position = Vector2(1468, 254)
 
 [connection signal="area_entered" from="player/Area2D" to="player" method="_on_area_2d_area_entered"]
 [connection signal="timeout" from="Timer" to="player" method="_on_timer_timeout"]
->>>>>>> Stashed changes
